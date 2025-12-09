@@ -104,4 +104,4 @@ Highlights:
 * Identifiqué patrones clave para decisiones de negocio
 * Profundicé en visualización narrativa (data storytelling)
 
-👉 **Link al detalle del Proyecto:** [Análisis de patrones] (https://github.com/brenishdez-analyst/brenishdez.github.io/blob/main/Analisis%20de%20patrones%20de%20comportamiento.ipynb)
+👉 **Link al detalle del Proyecto:** [Análisis de patrones](https://github.com/brenishdez-analyst/brenishdez.github.io/blob/main/Analisis%20de%20patrones%20de%20comportamiento.ipynb)
