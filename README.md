@@ -13,8 +13,8 @@ Intereses:
 📬 Contacto
 
 📧 Correo: brenishdez@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/brenis-hernandez/
-📂 GitHub: https://github.com/brenishdez-analyst/brenishdez.github.io
+🔗 LinkedIn: [brenis-hernandez](https://www.linkedin.com/in/brenis-hernandez/)
+📂 GitHub: [Repositorio Github](https://github.com/brenishdez-analyst/brenishdez.github.io)
 
 🧩 Cómo se desarrollan mis proyectos
 
@@ -45,6 +45,7 @@ Aquí encontrarás una selección de mis proyectos desarrollados usando Python, 
 * Visualización de datos
 
 📁 Proyectos
+
 🟦 1) Análisis Estadístico de Datos
 
 Exploración estadística, pruebas de hipótesis, análisis exploratorio y visualizaciones.
@@ -72,7 +73,10 @@ Highlights:
 * Reduje tiempos de análisis automatizando cálculos
 * Logré comunicar insights en formato narrativo técnico y entendible
 
-👉 Link al proyecto: https://github.com/brenishdez-analyst/brenishdez.github.io/blob/main/An%C3%A1lisis%20estad%C3%ADstico%20de%20datos.ipynb 
+👉 **Link al detalle del Proyecto:** [Análisis estadístico](https://github.com/brenishdez-analyst/brenishdez.github.io/blob/main/An%C3%A1lisis%20estad%C3%ADstico%20de%20datos.ipynb)
+
+
+
 
 🟩 2) Análisis de Patrones de Comportamiento
 
@@ -100,4 +104,4 @@ Highlights:
 * Identifiqué patrones clave para decisiones de negocio
 * Profundicé en visualización narrativa (data storytelling)
 
-👉 Link al proyecto: https://github.com/brenishdez-analyst/brenishdez.github.io/blob/main/Analisis%20de%20patrones%20de%20comportamiento.ipynb
+👉 **Link al detalle del Proyecto:** [Análisis de patrones] (https://github.com/brenishdez-analyst/brenishdez.github.io/blob/main/Analisis%20de%20patrones%20de%20comportamiento.ipynb)
