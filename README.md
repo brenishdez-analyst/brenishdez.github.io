@@ -1,4 +1,4 @@
-#PERFIL PROFESIONAL
+PERFIL PROFESIONAL
 Profesional en transición hacia Data Analytics con experiencia en procesos, control de calidad y gestión de proyectos en manufactura. Manejo de Python, SQL, Excel avanzado y visualización de datos. Capaz de analizar métricas, generar reportes y apoyar la toma de decisiones basadas en datos.
 
 Habilidades tecnológicas
