@@ -113,7 +113,7 @@ Highlights:
 * Automaticé cálculos y visualizaciones para reducir el tiempo de análisis y facilitar la comunicación de resultados.
 * Traduje hallazgos técnicos en conclusiones claras para perfiles no técnicos.
 
-👉 **Link al detalle del Proyecto:** [Análisis estadístico]([https://github.com/brenishdez-analyst/brenishdez.github.io/blob/main/An%C3%A1lisis%20estad%C3%ADstico%20de%20datos.ipynb](https://github.com/brenishdez-analyst/brenishdez.github.io/blob/main/Analisis_operativo_de_tiendas_Coppel.ipynb)
+👉 Link al detalle del proyecto: Análisis operativo de tiendas Coppel
 
 
 
