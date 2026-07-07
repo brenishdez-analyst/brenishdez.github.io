@@ -86,32 +86,32 @@ Analizar el comportamiento operativo de atención en tiendas Coppel Puebla, eval
 
 Lo que hice:
 
-*Limpieza y preparación de datos ✔
-*Conversión de variables de tiempo a minutos
-*Análisis exploratorio de datos, EDA
-*Comparación de tiempos de espera y atención por tienda, segmento y status
-*Tratamiento de valores atípicos
-*Visualizaciones personalizadas con Matplotlib
-*Interpretación técnica y no técnica de los hallazgos
+* Limpieza y preparación de datos ✔
+* Conversión de variables de tiempo a minutos
+* Análisis exploratorio de datos, EDA
+* Comparación de tiempos de espera y atención por tienda, segmento y status
+* Tratamiento de valores atípicos
+* Visualizaciones personalizadas con Matplotlib
+* Interpretación técnica y no técnica de los hallazgos
 
 Habilidades aplicadas:
 
-*Python
-*Pandas
-*NumPy
-*Matplotlib
-*Estadística descriptiva
-*Análisis exploratorio de datos
-*Tratamiento de outliers
-*Storytelling con datos
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Estadística descriptiva
+* Análisis exploratorio de datos
+* Tratamiento de outliers
+* Storytelling con datos
 
 Highlights:
 
-*Analicé más de 1.4 millones de registros operativos para identificar patrones de espera, atención y desempeño por tienda.
-*Transformé variables de tiempo en métricas interpretables para facilitar el análisis de eficiencia operativa.
-*Detecté diferencias en tiempos de atención y espera entre segmentos y tiendas, generando insights accionables para mejorar la experiencia del cliente.
-*Automaticé cálculos y visualizaciones para reducir el tiempo de análisis y facilitar la comunicación de resultados.
-*Traduje hallazgos técnicos en conclusiones claras para perfiles no técnicos.
+* Analicé más de 1.4 millones de registros operativos para identificar patrones de espera, atención y desempeño por tienda.
+* Transformé variables de tiempo en métricas interpretables para facilitar el análisis de eficiencia operativa.
+* Detecté diferencias en tiempos de atención y espera entre segmentos y tiendas, generando insights accionables para mejorar la experiencia del cliente.
+* Automaticé cálculos y visualizaciones para reducir el tiempo de análisis y facilitar la comunicación de resultados.
+* Traduje hallazgos técnicos en conclusiones claras para perfiles no técnicos.
 
 👉 **Link al detalle del Proyecto:** [Análisis estadístico]([https://github.com/brenishdez-analyst/brenishdez.github.io/blob/main/An%C3%A1lisis%20estad%C3%ADstico%20de%20datos.ipynb](https://github.com/brenishdez-analyst/brenishdez.github.io/blob/main/Analisis_operativo_de_tiendas_Coppel.ipynb)
 
