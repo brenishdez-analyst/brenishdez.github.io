@@ -1,0 +1,278 @@
+{
+  "retail": {
+    "category": "NEGOCIO · PYTHON + SQL + TABLEAU",
+    "title": "Online Retail: ventas, clientes y retención",
+    "metrics": [
+      [
+        "£20.91 M",
+        "ingresos válidos del dataset"
+      ],
+      [
+        "40,077",
+        "pedidos válidos"
+      ],
+      [
+        "5,878",
+        "clientes identificados"
+      ]
+    ],
+    "question": "¿Qué clientes, productos, mercados y periodos concentran el valor de una tienda online?",
+    "work": [
+      "Integré las dos hojas de Online Retail II y documenté reglas para ventas válidas, cancelaciones y registros sin cliente.",
+      "Preparé KPIs, segmentación RFM y cohortes con Python; escribí consultas de negocio en SQLite.",
+      "Organicé las salidas y construí un dashboard ejecutivo en Tableau."
+    ],
+    "finding": "El Reino Unido concentra 85.18% de los ingresos válidos. El 72.39% de los clientes identificados realizó más de un pedido. El segmento Champions reúne 1,175 clientes y aproximadamente £12.23 millones.",
+    "decision": "Priorizar campañas de recompra por segmento, anticipar la demanda estacional y revisar la concentración de ingresos y las cancelaciones.",
+    "limit": "Datos históricos de 2009–2011; diciembre de 2011 es parcial. Los ingresos válidos son ventas positivas según las reglas del proyecto: no equivalen a ingresos netos después de devoluciones ni a margen. RFM y cohortes solo incluyen clientes identificados. Los resultados no son ingresos generados por mi trabajo.",
+    "url": "https://github.com/brenishdez-analyst/Proyecto-Online-Retail",
+    "linkLabel": "Ver repositorio completo",
+    "links": [
+      [
+        "Abrir dashboard en Tableau",
+        "https://public.tableau.com/shared/4HFWHJNDP?:display_count=n&:origin=viz_share_link"
+      ],
+      [
+        "Revisar consultas SQL",
+        "https://github.com/brenishdez-analyst/Proyecto-Online-Retail/blob/main/sql/business_questions.sql"
+      ]
+    ]
+  },
+  "call": {
+    "category": "OPERACIONES · PYTHON + TABLEAU",
+    "title": "CallMeMaybe: señales para revisar la atención",
+    "metrics": [
+      [
+        "49,002",
+        "filas tras eliminar duplicados"
+      ],
+      [
+        "76",
+        "pares cliente–operador señalados"
+      ],
+      [
+        "3",
+        "criterios operativos"
+      ]
+    ],
+    "question": "¿Qué pares cliente–operador necesitan una revisión de espera, llamadas perdidas o actividad saliente?",
+    "work": [
+      "Depuré duplicados y preparé fechas, direcciones y duración de llamadas.",
+      "Construí métricas ponderadas por volumen para cada par cliente–operador.",
+      "Definí una regla de seguimiento con percentiles y exporté indicadores para Tableau."
+    ],
+    "finding": "La regla señala 76 pares cliente–operador que cumplen al menos dos criterios. Se combinan tasa de llamadas perdidas y espera por encima del percentil 75, y bajo volumen saliente relativo al cliente cuando aplica.",
+    "decision": "Usar las señales para revisar asignación, horarios, cobertura y necesidades de acompañamiento, antes de evaluar el desempeño de una persona.",
+    "limit": "Datos de agosto–noviembre de 2019. Las filas son agregados, no llamadas individuales; las 76 señales corresponden a pares cliente–operador, no necesariamente a 76 personas distintas. Las métricas usadas para formar los grupos no pueden validarlos de forma independiente mediante una comparación de esos mismos indicadores. Los registros sin operador reducen la cobertura de atribución.",
+    "file": "proyectos/callmemaybe.ipynb",
+    "links": [
+      [
+        "Abrir dashboard en Tableau",
+        "https://public.tableau.com/app/profile/brenis.hernandez/viz/Dashboard-Proyectofinal-BrenisHernandez/Dashboard1"
+      ]
+    ]
+  },
+  "funnel": {
+    "category": "PRODUCTO · EMBUDO + EXPERIMENTO A/A/B",
+    "title": "De la primera pantalla al pago",
+    "metrics": [
+      [
+        "7,534",
+        "usuarios en el periodo completo"
+      ],
+      [
+        "18.33%",
+        "embudo secuencial por primeras ocurrencias"
+      ],
+      [
+        "3",
+        "grupos experimentales"
+      ]
+    ],
+    "question": "¿Dónde se interrumpe el recorrido de compra y hay evidencia de un efecto del cambio de tipografía?",
+    "work": [
+      "Eliminé duplicados y recorté el periodo incompleto anterior al 1 de agosto de 2019.",
+      "Construí un embudo secuencial usando la primera ocurrencia de cada evento por usuario.",
+      "Comparé controles y variante con pruebas de proporciones y ajuste de Bonferroni."
+    ],
+    "finding": "Con esta definición del embudo, 1,360 de 7,419 usuarios de la pantalla principal llegan al pago en el orden requerido (18.33%). La mayor caída se da entre ofertas y carrito. No se detectaron diferencias significativas entre la tipografía nueva y los controles.",
+    "decision": "Investigar el recorrido de ofertas a carrito. No justificar una implementación por una mejora que este experimento no detectó.",
+    "limit": "El 18.33% depende del orden de las primeras ocurrencias y no es la proporción global de usuarios que pagaron: 3,539 de 7,534 usuarios registraron un pago (46.97%). Los usuarios pueden repetir pantallas o seguir otro recorrido. No rechazar una hipótesis no demuestra equivalencia entre variantes.",
+    "file": "proyectos/embudo-aab.ipynb"
+  },
+  "ab": {
+    "category": "EXPERIMENTACIÓN · ICE / RICE + A/B",
+    "title": "Priorizar hipótesis y evaluar una variante",
+    "metrics": [
+      [
+        "+18.9%",
+        "diferencia relativa filtrada B vs. A"
+      ],
+      [
+        "0.00695",
+        "p en la comparación filtrada"
+      ],
+      [
+        "ICE / RICE",
+        "priorización de hipótesis"
+      ]
+    ],
+    "question": "¿Qué hipótesis conviene priorizar y cómo cambian los pedidos por visita entre los grupos A y B?",
+    "work": [
+      "Ordené hipótesis con ICE y RICE y expliqué el efecto de incorporar alcance.",
+      "Excluí de los pedidos a los usuarios observados en ambos grupos y revisé métricas acumuladas.",
+      "Comparé datos completos y filtrados con Mann–Whitney y criterios de anomalía basados en percentiles."
+    ],
+    "finding": "El grupo B presenta aproximadamente 16.0% más pedidos por visita en el análisis sin filtrar y 18.9% en el filtrado. La comparación de distribuciones de valor del pedido no detecta una diferencia significativa.",
+    "decision": "La recomendación del análisis es considerar B como líder, condicionada a revisar la asignación experimental, los denominadores agregados y los criterios de cierre.",
+    "limit": "La métrica del notebook es pedidos por visita, no conversión de usuarios únicos. Las visitas están agregadas; excluir usuarios cruzados de los pedidos no permite ajustar sus visitas de forma equivalente. Mann–Whitney compara distribuciones/rangos, no prueba directamente igualdad de medias. Los porcentajes son diferencias observadas del experimento, no una mejora implementada por mí.",
+    "file": "proyectos/experimento-ab.ipynb"
+  },
+  "fitness": {
+    "category": "MACHINE LEARNING · CLASIFICACIÓN + SEGMENTACIÓN",
+    "title": "Model Fitness: anticipar el riesgo de cancelación",
+    "metrics": [
+      [
+        "4,000",
+        "clientes"
+      ],
+      [
+        "91.63%",
+        "accuracy de regresión logística"
+      ],
+      [
+        "78.22%",
+        "recall en validación"
+      ]
+    ],
+    "question": "¿Qué señales se asocian con cancelación y qué modelo funciona mejor en una partición de validación?",
+    "work": [
+      "Exploré diferencias de actividad, antigüedad, contratos y uso de servicios entre clientes.",
+      "Separé entrenamiento y validación, ajusté el escalado solo con entrenamiento y comparé regresión logística con random forest.",
+      "Exploré cinco clústeres con K-Means y contrasté las tasas de cancelación de cada grupo."
+    ],
+    "finding": "La regresión logística alcanza accuracy de 91.63%, precisión de 87.29% y recall de 78.22% en la partición guardada. En la segmentación exploratoria, el clúster 3 tiene la mayor cancelación (57.29%) y el 2 la menor (2.20%).",
+    "decision": "Explorar acciones de bienvenida y seguimiento de actividad para clientes en riesgo, y validar el modelo antes de utilizar sus predicciones en una operación real.",
+    "limit": "Las métricas proceden de una sola partición aleatoria 80/20, no de validación temporal o externa. Faltan calibración, ROC/AUC, validación cruzada y evaluación de costos. K=5 se fijó para el ejercicio; las etiquetas de clúster no son ordinales. Se corrigió la descripción para que coincida con las salidas guardadas, sin recalcular los modelos.",
+    "file": "proyectos/model-fitness.ipynb"
+  },
+  "instacart": {
+    "category": "ANÁLISIS EXPLORATORIO · COMPRAS",
+    "title": "Instacart: hábitos de compra y recompra",
+    "metrics": [
+      [
+        "5",
+        "tablas preparadas"
+      ],
+      [
+        "10.10",
+        "artículos promedio por pedido analizado"
+      ],
+      [
+        "8",
+        "artículos: mediana"
+      ]
+    ],
+    "question": "¿Cuándo compran los usuarios, qué productos repiten y cómo varía el tamaño del pedido?",
+    "work": [
+      "Revisé duplicados, valores ausentes y la coherencia de las tablas de pedidos y productos.",
+      "Exploré horarios, días, tamaño de carrito y productos populares.",
+      "Calculé tasas de recompra por producto y cliente."
+    ],
+    "finding": "En el resumen guardado de tamaño de pedido, la media es 10.10 artículos y la mediana 8. Los productos de consumo frecuente destacan entre los más pedidos y reordenados.",
+    "decision": "Apoyar hipótesis de recomendaciones y surtido a partir de hábitos de compra; validar cualquier propuesta con datos adicionales.",
+    "limit": "Dataset formativo modificado con ausentes y duplicados introducidos. La recurrencia describe la muestra, no demuestra fidelidad futura ni un efecto de campañas. El tamaño de pedido se calcula sobre pedidos presentes en la tabla de productos.",
+    "file": "proyectos/instacart.ipynb"
+  },
+  "ice": {
+    "category": "ANÁLISIS EXPLORATORIO · VIDEOJUEGOS",
+    "title": "Ice: ventas de videojuegos por región",
+    "metrics": [
+      [
+        "16,715",
+        "filas en el dataset inicial"
+      ],
+      [
+        "3",
+        "regiones comparadas"
+      ],
+      [
+        "2017",
+        "horizonte original del ejercicio"
+      ]
+    ],
+    "question": "¿Cómo difieren las ventas de videojuegos por plataforma, género y región?",
+    "work": [
+      "Preparé fechas, puntuaciones, ausentes y ventas globales.",
+      "Exploré evolución de plataformas y perfiles de mercados norteamericano, europeo y japonés.",
+      "Comparé puntuaciones de usuarios con pruebas de hipótesis."
+    ],
+    "finding": "Los perfiles de plataformas y géneros difieren por región. Las ventas muestran dispersión alta y concentración en ciertos títulos, por lo que una media global necesita contexto.",
+    "decision": "Construir una estrategia comercial adaptada al mercado y al ciclo de vida de la plataforma, dentro del periodo histórico estudiado.",
+    "limit": "El objetivo original es planear campañas para 2017; los datos no describen el mercado actual. Ventas no equivalen a rentabilidad, y una correlación entre reseñas y ventas no demuestra causalidad.",
+    "file": "proyectos/videojuegos-ice.ipynb"
+  },
+  "youtube": {
+    "category": "VISUALIZACIÓN · TENDENCIAS DE CONTENIDO",
+    "title": "YouTube: categorías y regiones en tendencia",
+    "metrics": [
+      [
+        "12,343",
+        "filas agregadas"
+      ],
+      [
+        "5",
+        "regiones"
+      ],
+      [
+        "18",
+        "categorías"
+      ]
+    ],
+    "question": "¿Cómo se distribuyen las apariciones en tendencias por categoría, fecha y región?",
+    "work": [
+      "Organicé un análisis por fecha, categoría y región para una presentación de tendencias.",
+      "Comparé la composición de categorías y regiones.",
+      "Preparé una presentación y el CSV que respalda el análisis."
+    ],
+    "finding": "En el CSV, Entertainment reúne el mayor conteo agregado (95,008). Le siguen People & Blogs (44,700) y Music (34,390). Se trata de apariciones en tendencias, no de videos únicos.",
+    "decision": "Usar el análisis como contexto histórico para formular hipótesis de contenido por región, sin confundir presencia en tendencias con demanda total.",
+    "limit": "Los conteos pueden incluir un mismo video en varios días. El archivo de enlace a Tableau incluido en el ZIP está vacío; por ello se publica la presentación y el CSV sin ofrecer un dashboard inexistente.",
+    "url": "https://github.com/brenishdez-analyst/brenishdez.github.io/blob/main/proyectos/youtube-presentacion.pdf",
+    "linkLabel": "Ver presentación original",
+    "links": [
+      [
+        "Revisar CSV del análisis",
+        "https://github.com/brenishdez-analyst/brenishdez.github.io/blob/main/proyectos/youtube-tendencias.csv"
+      ]
+    ]
+  },
+  "showz": {
+    "category": "MARKETING · COHORTES + CAC",
+    "title": "Showz: retención y adquisición por fuente",
+    "metrics": [
+      [
+        "Cohortes",
+        "retención y valor observado"
+      ],
+      [
+        "First touch",
+        "atribución de adquisición"
+      ],
+      [
+        "CAC",
+        "costo por comprador"
+      ]
+    ],
+    "question": "¿Cómo se relacionan adquisición, recompra e ingresos observados por cohorte y fuente?",
+    "work": [
+      "Preparé visitas, pedidos y costos de marketing y revisé las duraciones de sesión.",
+      "Calculé actividad, retención por cohortes e ingresos acumulados por comprador.",
+      "Atribuí compradores a su primera visita y comparé costos e ingresos observados por fuente."
+    ],
+    "finding": "El análisis permite contrastar fuentes con distintos costos por comprador y evolución de ingresos. Es un diagnóstico histórico de marketing, no una prueba A/B.",
+    "decision": "Investigar qué fuentes recuperan el gasto observado y comparar cohortes de madurez semejante antes de cambiar presupuestos.",
+    "limit": "Los datos no contienen asignación experimental; se retiraron del extracto público las secciones posteriores que no pertenecen al análisis histórico. El LTV del notebook es ingreso observado por comprador, sin margen ni horizonte de vida completo. Su indicador llamado ROMI usa ingresos menos gasto dividido por gasto: no equivale al retorno basado en beneficio incremental. La atribución first touch es una regla descriptiva.",
+    "file": "proyectos/showz-marketing.ipynb"
+  }
+}

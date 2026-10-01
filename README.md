@@ -1,146 +1,34 @@
-📈 Sobre mí
+# Brenis Hernandez · Data Analytics & Operations
 
-Soy Ingeniera Industrial en transición hacia Data Analytics, con experiencia previa en procesos, mejora continua, calidad y análisis.
+[Ver portafolio](https://brenishdez-analyst.github.io/brenishdez.github.io/)
 
-Actualmente desarrollando proyectos con Python, SQL y visualización para portafolio profesional 👩‍💻
+Análisis de datos aplicado a negocio, operaciones, producto y retención. Seis proyectos principales y seis complementarios, con metodología, resultados, límites y enlaces a evidencias.
 
-Intereses:
-✨ Data Analytics
-✨ Machine Learning
-✨ Procesos
-✨ Consultoría
+## Proyectos principales
 
-📬 Contacto
+| Caso | Evidencia |
+| --- | --- |
+| Online Retail: ventas, clientes y retención | [Repositorio](https://github.com/brenishdez-analyst/Proyecto-Online-Retail) · [Tableau](https://public.tableau.com/shared/4HFWHJNDP) |
+| Coppel Puebla: atención en tiendas | [Notebook](Analisis_operativo_de_tiendas_Coppel.ipynb) |
+| CallMeMaybe: señales de seguimiento operativo | [Notebook](proyectos/callmemaybe.ipynb) |
+| App de alimentos: embudo y A/A/B | [Notebook](proyectos/embudo-aab.ipynb) |
+| ICE/RICE y experimento A/B | [Notebook](proyectos/experimento-ab.ipynb) |
+| Model Fitness: cancelación y segmentación | [Notebook](proyectos/model-fitness.ipynb) |
 
-📧 Correo: brenishdez@gmail.com
-🔗 LinkedIn: [brenis-hernandez](https://www.linkedin.com/in/brenis-hernandez/)
-📂 GitHub: [Repositorio Github](https://github.com/brenishdez-analyst/brenishdez.github.io)
+## Casos complementarios
 
-🧩 Cómo se desarrollan mis proyectos
+Zuber, Megaline, Instacart, Ice/videojuegos, YouTube y Showz. La selección y las adaptaciones se documentan en [SELECCION_PROYECTOS.md](SELECCION_PROYECTOS.md).
 
-Uso un enfoque basado en:
+Los resultados describen datasets y experimentos históricos. No se presentan como mejoras implementadas, ingresos generados personalmente ni relación laboral con las empresas analizadas.
 
-* Ciclo de análisis
-* Formulación de hipótesis
-* EDA
-* Pruebas estadísticas
-* Comunicación de resultados
+## Sitio
 
-Esto asegura un análisis profesional y reproducible ✨
+`index.html`, `assets/css/portfolio.css` y `assets/js/portfolio.js` forman un sitio estático adaptable a móvil. Incluye filtros, detalles de casos, gráfica de KPIs Coppel y temas claro/oscuro. Las evidencias nuevas están en `proyectos/`. La fotografía original se conserva.
 
-🚀 Objetivo Profesional
+Abre `index.html` en un navegador o ejecuta `python -m http.server 8080` desde la raíz. No hay compilación ni dependencias de producción. La tipografía usa Google Fonts con alternativa del sistema.
 
-Seguir desarrollándome como Data Analyst en proyectos que involucren análisis estadístico, Machine Learning básico, visualización avanzada y soluciones para negocio.
+Las copias públicas de los notebooks conservan código y explicaciones; se retiraron las salidas originales para evitar exponer registros o identificadores. Los resúmenes se apoyan en las versiones originales revisadas y no se han ejecutado de nuevo con los datos originales. Los adjuntos originales de la autora no se modificaron.
 
-📊 Portafolio de Proyectos – Data Analytics
+## Contacto
 
-Aquí encontrarás una selección de mis proyectos desarrollados usando Python, SQL, Pandas, visualizaciones y análisis estadístico.
-
-✨ Tecnologías principales
-
-* Python (Pandas, Numpy, Matplotlib, Scipy)
-* SQL
-* Jupyter Notebook
-* Estadística
-* Visualización de datos
-
-📁 Proyectos
-
-🟦 1) Análisis Estadístico de Datos
-
-Exploración estadística, pruebas de hipótesis, análisis exploratorio y visualizaciones.
-
-Objetivo: Analizar el comportamiento de los viajes en función de las condiciones climáticas y determinar si existen diferencias significativas en la duración promedio.
-
-Lo que hice:
-
-* Limpieza de datos ✔
-* EDA (Exploratory Data Analysis)
-* Pruebas t para comparar grupos
-* Visualización personalizada con Matplotlib
-* Interpretación técnica y “no técnica”
-
-![alt text](image.png)
-
-Habilidades aplicadas:
-
-* Pandas, Matplotlib, Scipy.stats
-* Estadística inferencial
-* Tratamiento de outliers
-
-Highlights:
-
-* Reduje tiempos de análisis automatizando cálculos
-* Logré comunicar insights en formato narrativo técnico y entendible
-
-👉 **Link al detalle del Proyecto:** [Análisis estadístico](https://github.com/brenishdez-analyst/brenishdez.github.io/blob/main/An%C3%A1lisis%20estad%C3%ADstico%20de%20datos.ipynb)
-
-
-
-🟦 2) Análisis Operativo de Tiendas Coppel
-
-Exploración estadística, análisis operativo, tratamiento de datos y visualizaciones para identificar patrones de atención en tiendas.
-
-Objetivo:
-Analizar el comportamiento operativo de atención en tiendas Coppel Puebla, evaluando tiempos de espera, tiempos de atención, segmentos de servicio y diferencias entre tiendas para detectar oportunidades de mejora en eficiencia y experiencia del cliente.
-
-Lo que hice:
-
-* Limpieza y preparación de datos ✔
-* Conversión de variables de tiempo a minutos
-* Análisis exploratorio de datos, EDA
-* Comparación de tiempos de espera y atención por tienda, segmento y status
-* Tratamiento de valores atípicos
-* Visualizaciones personalizadas con Matplotlib
-* Interpretación técnica y no técnica de los hallazgos
-
-Habilidades aplicadas:
-
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Estadística descriptiva
-* Análisis exploratorio de datos
-* Tratamiento de outliers
-* Storytelling con datos
-
-Highlights:
-
-* Analicé más de 1.4 millones de registros operativos para identificar patrones de espera, atención y desempeño por tienda.
-* Transformé variables de tiempo en métricas interpretables para facilitar el análisis de eficiencia operativa.
-* Detecté diferencias en tiempos de atención y espera entre segmentos y tiendas, generando insights accionables para mejorar la experiencia del cliente.
-* Automaticé cálculos y visualizaciones para reducir el tiempo de análisis y facilitar la comunicación de resultados.
-* Traduje hallazgos técnicos en conclusiones claras para perfiles no técnicos.
-
-👉 Link al detalle del proyecto: Análisis operativo de tiendas Coppel
-
-
-
-🟩 3) Análisis de Patrones de Comportamiento
-
-Identificación de tendencias, segmentación y comportamiento de usuarios.
-
-Objetivo: Encontrar patrones relevantes dentro de un dataset para describir el comportamiento de los usuarios y detectar posibles áreas de oportunidad.
-
-Lo que hice:
-
-* Normalización y preparación de datos
-* Análisis descriptivo y tendencias
-* Segmentaciones y patrones
-* Visualizaciones claras y comparativas
-
-![alt text](image-1.png)
-
-Habilidades aplicadas:
-
-* Python
-* Limpieza y estructuración de datos
-* Análisis exploratorio
-
-Highlights:
-
-* Identifiqué patrones clave para decisiones de negocio
-* Profundicé en visualización narrativa (data storytelling)
-
-👉 **Link al detalle del Proyecto:** [Análisis de patrones](https://github.com/brenishdez-analyst/brenishdez.github.io/blob/main/Analisis%20de%20patrones%20de%20comportamiento.ipynb)
+[Correo](mailto:brenishdez@gmail.com) · [LinkedIn](https://www.linkedin.com/in/brenis-hernandez/) · [GitHub](https://github.com/brenishdez-analyst)
