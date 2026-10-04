@@ -274,5 +274,49 @@
     "decision": "Investigar qué fuentes recuperan el gasto observado y comparar cohortes de madurez semejante antes de cambiar presupuestos.",
     "limit": "Los datos no contienen asignación experimental; se retiraron del extracto público las secciones posteriores que no pertenecen al análisis histórico. El LTV del notebook es ingreso observado por comprador, sin margen ni horizonte de vida completo. Su indicador llamado ROMI usa ingresos menos gasto dividido por gasto: no equivale al retorno basado en beneficio incremental. La atribución first touch es una regla descriptiva.",
     "file": "proyectos/showz-marketing.ipynb"
+  },
+  "nocountry": {
+    "category": "NO COUNTRY · SIMULACIÓN LABORAL · EQUIPO INTERNACIONAL",
+    "title": "BENCHMARK·DC: diagnóstico de madurez operativa",
+    "metrics": [
+      [
+        "5",
+        "dimensiones de evaluación"
+      ],
+      [
+        "15",
+        "indicadores del cuestionario"
+      ],
+      [
+        "4",
+        "países en el equipo"
+      ]
+    ],
+    "question": "¿Cómo convertir una evaluación de un centro de datos en un diagnóstico comparable que ayude a priorizar mejoras operativas?",
+    "workTitle": "Mi participación en el equipo",
+    "work": [
+      "Participé como Data Analyst en la simulación laboral de No Country, dentro del equipo que desarrolló BENCHMARK·DC.",
+      "Colaboré en un equipo internacional de ocho integrantes de México, Argentina, Perú y Colombia, con roles de análisis de datos, ciencia de datos, backend y frontend."
+    ],
+    "findingTitle": "La solución del equipo",
+    "finding": "El proyecto organiza 15 indicadores en cinco dimensiones: visibilidad, fricción, latencia, auto-cuantificación y bloqueantes. El motor transforma respuestas en escala de 1 a 5 en puntuaciones y percentiles, identifica áreas débiles y compara evaluaciones por región y tamaño. El repositorio incluye también explicaciones y recomendaciones asistidas por IA.",
+    "decision": "Orientar la revisión de las dimensiones con menor madurez y facilitar conversaciones sobre prioridades de mejora, usando el diagnóstico como punto de partida.",
+    "limit": "Proyecto colaborativo desarrollado en una simulación laboral. Las funcionalidades y tecnologías descritas corresponden a la solución del equipo. Las cifras de esta ficha describen el alcance del cuestionario y la composición del equipo; no son mejoras operativas medidas en clientes. La comparación depende de la calidad y representatividad de las referencias y evaluaciones disponibles.",
+    "url": "https://github.com/No-Country-simulation/S07-26-Team-21",
+    "linkLabel": "Ver proyecto del equipo en GitHub",
+    "links": [
+      [
+        "Ver equipo y documentación",
+        "https://github.com/No-Country-simulation/S07-26-Team-21#-español"
+      ],
+      [
+        "Revisar motor de evaluación",
+        "https://github.com/No-Country-simulation/S07-26-Team-21/blob/main/app/services/scoring_engine.py"
+      ],
+      [
+        "Consultar estadísticas agregadas",
+        "https://github.com/No-Country-simulation/S07-26-Team-21/blob/main/app/services/stats_service.py"
+      ]
+    ]
   }
 }

@@ -2,18 +2,21 @@
 
 [Ver portafolio](https://brenishdez-analyst.github.io/brenishdez.github.io/)
 
-Análisis de datos aplicado a negocio, operaciones, producto y retención. Seis proyectos principales y seis complementarios, con metodología, resultados, límites y enlaces a evidencias.
+Análisis de datos aplicado a negocio, operaciones, producto y retención. Siete proyectos principales y seis complementarios, con metodología, resultados, límites y enlaces a evidencias.
 
 ## Proyectos principales
 
 | Caso | Evidencia |
 | --- | --- |
+| BENCHMARK·DC: madurez operativa de centros de datos | [Proyecto internacional de No Country](https://github.com/No-Country-simulation/S07-26-Team-21) · Rol: Data Analyst |
 | Online Retail: ventas, clientes y retención | [Repositorio](https://github.com/brenishdez-analyst/Proyecto-Online-Retail) · [Tableau](https://public.tableau.com/shared/4HFWHJNDP) |
 | Coppel Puebla: atención en tiendas | [Notebook](Analisis_operativo_de_tiendas_Coppel.ipynb) |
 | CallMeMaybe: señales de seguimiento operativo | [Notebook](proyectos/callmemaybe.ipynb) |
 | App de alimentos: embudo y A/A/B | [Notebook](proyectos/embudo-aab.ipynb) |
 | ICE/RICE y experimento A/B | [Notebook](proyectos/experimento-ab.ipynb) |
 | Model Fitness: cancelación y segmentación | [Notebook](proyectos/model-fitness.ipynb) |
+
+BENCHMARK·DC se presenta como un proyecto colaborativo de simulación laboral: ocho integrantes de México, Argentina, Perú y Colombia. Las funcionalidades y el stack corresponden al equipo; la participación de Brenis se identifica como Data Analyst.
 
 ## Casos complementarios
 

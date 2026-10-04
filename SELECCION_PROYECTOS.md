@@ -1,11 +1,12 @@
 # Selección del portafolio — Brenis Hernández
 
-Se revisaron 15 proyectos únicos: los 13 adjuntos, Online Retail y el caso Coppel existente. Las copias de Megaline y Zuber corresponden a los casos que ya estaban publicados; no se duplican.
+Se revisaron 16 proyectos únicos: los 13 adjuntos, Online Retail, el caso Coppel existente y BENCHMARK·DC de No Country. Las copias de Megaline y Zuber corresponden a los casos que ya estaban publicados; no se duplican.
 
-La portada muestra seis casos principales. Un bloque desplegable conserva otros seis proyectos útiles. Se dejan fuera únicamente tres ejercicios iniciales de Python, cuyo contenido ya está demostrado en los proyectos más completos.
+La portada muestra siete casos principales. Un bloque desplegable conserva otros seis proyectos útiles. Se dejan fuera únicamente tres ejercicios iniciales de Python, cuyo contenido ya está demostrado en los proyectos más completos.
 
 | Proyecto | Ubicación | Motivo |
 | --- | --- | --- |
+| BENCHMARK·DC / No Country | Principal | Experiencia colaborativa internacional en un producto de diagnóstico operativo; rol Data Analyst confirmado por la autora y el README del equipo. |
 | Online Retail / RetailPulse | Principal | Cadena completa Python, SQL, RFM, cohortes y Tableau; evidencia organizada. |
 | Coppel Puebla | Principal | Volumen de datos y KPIs operativos; gráfica interactiva con resultados guardados. |
 | CallMeMaybe | Principal | Métricas por cliente–operador y dashboard; se aclara el carácter heurístico de las señales. |
@@ -33,3 +34,7 @@ Los archivos adjuntos originales no se modifican. Las copias para el portafolio 
 - A/B: revisar denominadores agregados y establecer el criterio de cierre antes del experimento.
 - YouTube: recuperar el enlace público de Tableau y pulir la presentación.
 - Online Retail: corregir en la ficha del repositorio la referencia antigua a Power BI para que coincida con el dashboard de Tableau publicado.
+
+## Proyecto No Country
+
+BENCHMARK·DC se añadió con enlace al repositorio original del equipo. El README confirma el rol Data Analyst de Brenis y un equipo de ocho integrantes de cuatro países. Las métricas (cinco dimensiones y quince indicadores) describen el alcance del producto. Se distingue la participación personal del resultado colectivo y no se atribuye a Brenis la autoría individual del backend, el motor estadístico ni la integración de IA.
