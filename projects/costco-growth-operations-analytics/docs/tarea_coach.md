@@ -42,4 +42,4 @@ La comparación de periodos debe considerar su granularidad y duración. Las sim
 - [x] Sin credenciales ni información confidencial.
 - [x] Fuentes públicas citadas.
 - [x] Repositorio público y proyecto accesible.
-- [ ] Enlace compartido con el coach (enviar).
+- [ ] Enlace compartido con el coach.
