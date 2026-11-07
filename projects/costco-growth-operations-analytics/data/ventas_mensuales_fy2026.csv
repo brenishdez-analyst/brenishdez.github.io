@@ -1,0 +1,13 @@
+periodo,mes,anio,fecha_fin,semanas,ventas_netas_millones_usd,crecimiento_ventas_pct,comp_total_ajustado_pct,digital_crecimiento_pct,fuente_url
+1,Septiembre,2025,2025-10-05,5,26580,8.0,6.0,26.1,https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-September-Sales-Results/default.aspx
+2,Octubre,2025,2025-11-02,4,21750,8.6,6.8,16.6,https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-October-Sales-Results/default.aspx
+3,Noviembre,2025,2025-11-30,4,23640,8.1,6.4,16.6,https://investor.costco.com/news/news-details/2025/Costco-Wholesale-Corporation-Reports-November-Sales-Results/default.aspx
+4,Diciembre,2025,2026-01-04,5,29860,8.5,6.2,18.9,https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-December-Sales-Results/default.aspx
+5,Enero,2026,2026-02-01,4,21330,9.3,6.4,34.4,https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-January-Sales-Results/default.aspx
+6,Febrero,2026,2026-03-01,4,21690,9.5,7.0,21.8,https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-Second-Quarter-and-Year-to-Date-Operating-Results-for-Fiscal-2026-and-February-Sales-Results/default.aspx
+7,Marzo,2026,2026-04-05,5,28410,11.3,6.2,23.3,https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-March-Sales-Results/default.aspx
+8,Abril,2026,2026-05-03,4,23920,13.0,7.8,18.8,https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-April-Sales-Results/default.aspx
+9,Mayo,2026,2026-05-31,4,24010,14.5,8.0,21.1,https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-May-Sales-Results/default.aspx
+10,Junio,2026,2026-07-05,5,29240,10.6,7.0,20.9,https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-June-Sales-Results-and-Announces-Quarterly-Cash-Dividend/default.aspx
+11,Julio,2026,2026-08-02,4,23120,10.7,6.6,17.7,https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-July-Sales-Results/default.aspx
+12,Agosto,2026,2026-08-30,4,23700,9.9,5.4,17.9,https://investor.costco.com/news/news-details/2026/Costco-Wholesale-Corporation-Reports-August-Sales-Results/default.aspx
