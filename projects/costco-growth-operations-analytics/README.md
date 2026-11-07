@@ -1,6 +1,6 @@
 # Costco Growth & Operations Analytics
 
-**Proyecto de Data Analytics | Python · pandas · NumPy · SQL · simulación**
+**Proyecto de Data Analytics**
 
 Dos módulos distintos: **análisis comercial con fuentes públicas reales** y **simulación hipotética de cajas con datos sintéticos**. Este proyecto no está afiliado a Costco y no utiliza datos internos ni personales.
 
@@ -18,7 +18,7 @@ Dos módulos distintos: **análisis comercial con fuentes públicas reales** y *
 - El acumulado de informes mensuales (US$297,250 M) difiere del dato anual exacto en US$3 M por redondeo. Se usa el Form 10-K para totales anuales.
 - Fuentes por cada periodo: [comunicados mensuales](https://investor.costco.com/news/default.aspx), URLs detalladas en el CSV.
 
-## Simulación (NO datos de Costco)
+## Simulación 
 Supuestos: una fila FIFO, 8 horas, tasas Poisson por hora `[25,30,35,50,55,52,40,30]` clientes/hora, servicio triangular 2.5–3.5–6 min por cliente, costo laboral hipotético MXN $150 por hora y 300 repeticiones por estrategia/nivel de demanda. Se simulan las mismas llegadas y duraciones por repetición en cada configuración.
 
 | Política · demanda base | Espera media | P90 espera | Esperan ≤10 min | Costo jornada MXN |
@@ -38,4 +38,4 @@ Se probaron escenarios de demanda base, +10% y +20% con 300 repeticiones por esc
 ## Limitaciones
 No contamos con transacciones ni tráfico de clientes de Costco, tiempos de caja observados o información de nómina. No inferimos operaciones reales a partir de las ventas de la compañía. No se entrenó un modelo predictivo supervisado; AUC/ROC no aplica. Para una decisión real serían necesarios datos de campo, costos verificables, validación y pruebas de sensibilidad adicionales.
 
-**Trabajo independiente de aprendizaje · noviembre de 2026.**
+**Trabajo independiente de aprendizaje · noviembre de 2026**
